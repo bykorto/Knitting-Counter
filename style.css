@@ -1,0 +1,145 @@
+.bellefair-regular {
+  font-family: "Bellefair", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Bellefair", serif;
+    color: #545454;
+    background-color: #decfca;
+}
+
+button {
+    font-family: "Bellefair", serif;
+    color: #545454;
+}
+
+.navbar-box {
+    display: flex;
+    background-color: #78331a;
+    border: none;
+    height: 4.5rem;
+    align-items: center;
+    justify-content: right;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px;
+}
+
+.navbar-btn-box {
+    display: flex;
+    align-content: right;
+    padding: 1rem;
+}
+
+.navbar-btn {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+    background-color: #decfca;
+    color: #2a2a2a;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    margin: 1.2rem;
+}
+
+.navbar-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px;
+    background-color: #dcbfb5;
+    transition: background-color 200ms ease;
+}
+
+.navbar-btn-text {
+    text-transform: uppercase;
+}
+
+.navbar-btn-icon {
+    border-left: 1px solid #a3938e78;
+    padding-left: 1.5rem;
+    justify-content: center;
+    padding-bottom: 1%;
+    max-height: 1.5rem;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 1rem 30%;
+}
+
+.project-title-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-weight: 400;
+}
+
+.project-counter-box {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.project-counter-pill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 80px;
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    position: relative;
+}
+
+#row-counter {
+    background-color: #78331a77;
+}
+
+#repeat-counter {
+    background-color: #78551a77;
+}
+
+.change-counter-btn {
+    background: none;
+    border: none;
+    font-size: 72px;
+    cursor: pointer;
+    margin: 30%;
+    padding-bottom: 4%;
+}
+
+.change-counter-btn:hover {
+    opacity: 0.8;
+}
+
+.counter-display {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    height: 100%;
+    width: 40%;
+    color: #bebebe;
+    font-size: 64px;
+}
+
+#project-row-counter {
+    background-color: #78331a;
+}
+
+#project-repeat-counter {
+    background-color: #78551a;
+}
