@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Knitting Counter Tool</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="navbar-box">
+            <div class="navbar-btn-box">
+                <button class="navbar-btn" id="navbar-btn-projects">
+                    <span class="navbar-btn-text">New Project</span>
+                    <img class="navbar-btn-icon" src="/icons/plus.svg">
+                </button>
+                <button class="navbar-btn" id="navbar-btn-new">
+                    <span class="navbar-btn-text">See Projects</span>
+                    <img class="navbar-btn-icon" src="/icons/arrow.svg">
+                </button>
+            </div>
+        </div>
+        <div class="main-page">
+            <div class="project-title-desc">
+                <h1 id="current-project-title">Project Name</h1>
+                <h3 id="current-project-desc">Project Description</h3>
+            </div>
+            <div class="main-page-divider">
+            </div>
+            <div class="project-counter-box">
+                <div class="project-counter-box">
+                    <h1 class="project-counter-label">ROWS</h1>
+                    <div class="project-counter-pill" id="row-counter">
+                        <button class="change-counter-btn" id="decrease-counter">-</button>
+                        <label class="counter-display" id="project-row-counter">0</label>
+                        <button class="change-counter-btn" id="increase-counter">+</button>
+                    </div>
+                </div>
+                <div class="conversion-note-box">
+                    <div class="conversion-note-arrow">
+                        <svg height="8px" width="8px"></svg>
+                    </div>
+                    <div class="conversion-note-text">
+                        <p>8 rows per label</p>>
+                    </div>
+                </div>
+                <div class="project-counter-box">
+                    <h1 class="project-counter-label">REPEATS</h1>
+                    <div class="project-counter-pill" id="repeat-counter">
+                        <button class="change-counter-btn" id="decrease-counter">-</button>
+                        <label class="counter-display" id="project-repeat-counter">0</label>
+                        <button class="change-counter-btn" id="increase-counter">+</button>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
