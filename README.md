@@ -4,7 +4,7 @@ When you knit, you would typically follow a 'pattern' which explains what types 
 
 This typically requires pen and paper or just memory, but with multiple projects side-by-side it becomes hard to track it all.
 
-This is one of my first projects and is designed to be incredibly simple (but still aesthetically-pleasing enough to be usable). Project data is stored in a .csv file to be called back later down the line.
+This is one of my first projects and is designed to be incredibly simple (but still aesthetically-pleasing enough to be usable). Project data is stored locally.
 
 If you know someone who knits, send them this!! I made this for my girlfriend so it should hopefully be quite usable for just about anyone. 
 
