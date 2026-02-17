@@ -60,14 +60,17 @@ button {
 
 .navbar-btn-text {
     text-transform: uppercase;
+    border-right: 1px solid #a3938e78;
+    padding-right: 1.5rem;
 }
 
 .navbar-btn-icon {
-    border-left: 1px solid #a3938e78;
-    padding-left: 1.5rem;
     justify-content: center;
-    padding-bottom: 1%;
-    max-height: 1.5rem;
+    max-height: 2rem;
+}
+
+#navbar-arrow-icon {
+    transform: rotate(270deg);
 }
 
 .main-page {
@@ -142,4 +145,23 @@ button {
 
 #project-repeat-counter {
     background-color: #78551a;
+}
+
+.conversion-note-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.conversion-note-box p {
+    margin: 0.5rem;
+}
+
+.conversion-note-icon {
+    max-height: 1.5rem;
+    margin: 0.5rem;
+    margin-right: -0.2rem;
 }
