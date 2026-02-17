@@ -18,7 +18,7 @@
                 </button>
                 <button class="navbar-btn" id="navbar-btn-new">
                     <span class="navbar-btn-text">See Projects</span>
-                    <img class="navbar-btn-icon" src="/icons/arrow.svg">
+                    <img class="navbar-btn-icon" id="navbar-arrow-icon" src="/icons/arrow.svg">
                 </button>
             </div>
         </div>
@@ -33,28 +33,25 @@
                 <div class="project-counter-box">
                     <h1 class="project-counter-label">ROWS</h1>
                     <div class="project-counter-pill" id="row-counter">
-                        <button class="change-counter-btn" id="decrease-counter">-</button>
+                        <button class="change-counter-btn" id="decrease-rows">-</button>
                         <label class="counter-display" id="project-row-counter">0</label>
-                        <button class="change-counter-btn" id="increase-counter">+</button>
+                        <button class="change-counter-btn" id="increase-rows">+</button>
                     </div>
                 </div>
                 <div class="conversion-note-box">
-                    <div class="conversion-note-arrow">
-                        <svg height="8px" width="8px"></svg>
-                    </div>
-                    <div class="conversion-note-text">
-                        <p>8 rows per label</p>>
-                    </div>
+                    <img class="conversion-note-icon" src="/icons/arrow.svg">
+                    <p id="rows-per-repeat">8 rows per repeat</p>
                 </div>
                 <div class="project-counter-box">
                     <h1 class="project-counter-label">REPEATS</h1>
                     <div class="project-counter-pill" id="repeat-counter">
-                        <button class="change-counter-btn" id="decrease-counter">-</button>
+                        <button class="change-counter-btn" id="decrease-repeats">-</button>
                         <label class="counter-display" id="project-repeat-counter">0</label>
-                        <button class="change-counter-btn" id="increase-counter">+</button>
+                        <button class="change-counter-btn" id="increase-repeats">+</button>
                     </div>                    
                 </div>
             </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
